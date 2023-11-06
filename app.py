@@ -4,7 +4,7 @@ import openai
 import pandas as pd
 
 # Set your OpenAI API key here
-os.environ['OPENAI_API_KEY'] = "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"
+os.environ['OPENAI_API_KEY'] = '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'
 
 st.title("Amazon Review Sentiment Analysis")
 #st.config(layout=wide)
