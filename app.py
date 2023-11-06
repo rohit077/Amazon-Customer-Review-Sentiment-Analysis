@@ -1,11 +1,10 @@
 import streamlit as st
 import json
-import os
 import openai
 import pandas as pd
 
 # Set your OpenAI API key here
-os.environ['OPENAI_API_KEY'] = "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"
+openai.api_key = "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"
 
 st.title("Amazon Review Sentiment Analysis")
 #st.config(layout=wide)
